@@ -1,0 +1,29 @@
+* {
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /* background-color: black; */
+    color: rgb(100, 89, 255);
+}
+body{
+    background-color: black;
+}
+
+h1 {
+
+    margin-left: 35%;
+    /* padding: .21rem; */
+}
+
+#container {
+    border: 2px solid rgb(255, 39, 39);
+    width: 750px;
+    height: 450px;
+    position: absolute;
+    margin-left: 20%;
+    background-color: aliceblue;
+}
+
+p {
+    margin-left: 45%;
+}

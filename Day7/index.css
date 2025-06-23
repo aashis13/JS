@@ -1,0 +1,21 @@
+* {
+  padding: 1vw;
+  margin: 1vw;
+  transition: all 0.3s ease-in-out;
+  /* box-shadow: 0px 0px 120vw;
+  border-radius: 12px; */
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+  border: none;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #80dffc;
+  text-align: center;
+  /* padding-top: 100px; */
+}
+.dark{
+    background-color: black;
+    color: white;
+}

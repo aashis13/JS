@@ -1,0 +1,17 @@
+=  assignment
+== compare
+=== compare with types
+!= not equal
+!==  not equal with types
+<  less than
+>  greater than
+
+logical:
+&& logical and
+|| logical or
+!  logical not 
+
+spread(copy) and Rest(Merge) operator(...):
+... is use to copy the array.
+
+Clone and Merge.

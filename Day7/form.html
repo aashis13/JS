@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+   
+  </head>
+ 
+  <body>
+    <div id="container">
+      <h1>Register!</h1>
+      <form>
+        <input type="text" placeholder="Name" id="name" /><br />
+        <div id="namecheck" class="error"></div>
+        <input type="email" placeholder="Email" id="email" /><br />
+        <div id="emailcheck" class="error"></div>
+        <input type="password" placeholder="Password" id="password" /><br />
+        <div id="passcheck" class="error"></div>
+        <button id="submit" type="submit" onclick="submiter(event)">
+          Submit
+        </button>
+        <button id="Showdetails" type="button" onclick="shower()"></button><br />
+      </form>
+    </div>
+    <div id="displaytable"></div>
+    <script src="./form.js"></script>
+  </body>
+</html>
